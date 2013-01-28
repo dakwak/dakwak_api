@@ -1,6 +1,10 @@
 # Dakwak
 
-TODO: Write a gem description
+dakwak is a website localization service that offers both machine and professional translation in 54 different languages.
+
+You can quickly and easily translate your websites to your languages of choice, and have your translated websites up and running in no time.
+
+Start your 14 day trial at dakwak now: https://dakwak.com
 
 ## Installation
 
@@ -18,12 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+For more information about dakwak, type into terminal:
 
-## Contributing
+    $ dakwak
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
