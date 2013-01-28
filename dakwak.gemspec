@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "dakwak"
   gem.require_paths = ["lib"]
   gem.version       = Dakwak::VERSION
-  gem.add_development_dependency 'rake'
   
+  gem.add_development_dependency 'rake'
   gem.add_development_dependency 'test-unit'
 end
