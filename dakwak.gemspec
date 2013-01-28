@@ -2,10 +2,13 @@
 require File.expand_path('../lib/dakwak/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Nour"]
+  gem.authors       = ["dakwak"]
   gem.email         = ["nour.h@dakwak.com"]
-  gem.description   = %q{dakwak is a ... dakwak gem is a wrapper for dakwak api}
-  gem.summary       = %q{Write a gem summary}
+  gem.description   = %q{dakwak is a website localization service that offers both machine and professional translation 
+    in 54 different languages.You can quickly and easily translate your websites to your languages of choice, 
+    and have your translated websites up and running in no time.}
+  gem.summary       = %q{dakwak is a website localization service that offers both machine and professional translation 
+    in 54 different languages.}
   gem.homepage      = "https://dakwak.com"
 
   gem.files         = `git ls-files`.split($\)
@@ -14,7 +17,6 @@ Gem::Specification.new do |gem|
   gem.name          = "dakwak"
   gem.require_paths = ["lib"]
   gem.version       = Dakwak::VERSION
-  
+
   gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'test-unit'
 end
