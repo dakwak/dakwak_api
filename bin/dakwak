@@ -2,4 +2,4 @@
 
 require 'dakwak'
 
-puts Dakwak::Command.intro
+puts Dakwak.style(Dakwak::Command.intro, :color=>:cyan)
